@@ -37,7 +37,7 @@ public class ApplicationManager {
                 "/Users/tayahatum/QAAppium/apk/AdvancedRecyclerView.apk");
 
            //capabilities.setCapability("noReset","false");
-          // capabilities.setCapability("fullReset", "true");
+           //capabilities.setCapability("fullReset", "true");
 
         driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 

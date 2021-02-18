@@ -33,7 +33,7 @@ public class TestBase {
 
     @AfterSuite
     public void tearDown() {
-       // app.getDriver().closeApp();
+       //app.getDriver().closeApp();
         app.stop();
     }
 
