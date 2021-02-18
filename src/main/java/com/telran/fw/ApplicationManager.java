@@ -4,6 +4,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.events.EventFiringWebDriverFactory;
+import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.slf4j.Logger;
@@ -35,8 +36,8 @@ public class ApplicationManager {
         capabilities.setCapability("app",
                 "/Users/tayahatum/QAAppium/apk/AdvancedRecyclerView.apk");
 
-//            capabilities.setCapability("noReset","false");
-//            capabilities.setCapability("fullReset", "true");
+           //capabilities.setCapability("noReset","false");
+          // capabilities.setCapability("fullReset", "true");
 
         driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 

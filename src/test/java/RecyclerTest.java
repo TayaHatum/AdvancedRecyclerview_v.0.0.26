@@ -5,10 +5,10 @@ public class RecyclerTest extends TestBase{
     public void testHorizontalSwipe() {
 
         app.recycler().selectItemSwipe();
-        app.recycler().selectDraggableBase();
+        app.recycler().selectSwipebleBase();
     }
     @Test
     public void testDragNDrop() {
-        app.recycler().selectDraggableBase();
+        app.recycler().selectSwipebleBase();
     }
 }

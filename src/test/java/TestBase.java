@@ -27,13 +27,13 @@ public class TestBase {
 
     @AfterMethod(alwaysRun = true)
     public void stopLogger(Method m) {
-//        app.getDriver().resetApp();
+       //app.getDriver().resetApp();
         logger.info("Stop test " + m.getName() + "\n************************************************");
     }
 
     @AfterSuite
     public void tearDown() {
-//        app.getDriver().closeApp();
+       // app.getDriver().closeApp();
         app.stop();
     }
 
